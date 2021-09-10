@@ -1,0 +1,16 @@
+{
+  "name": "Lavender",
+  "version": "1.0",
+  "main": "index.html",
+  "repository": "https://github.com/No767/Lavender",
+  "author": "No767",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "autoprefixer": "^10.3.4",
+    "bootstrap": "^5.1.1",
+    "postcss": "^8.3.6",
+    "simple-icons": "^5.13.0",
+    "tailwindcss": "^2.2.14"
+  }
+}
