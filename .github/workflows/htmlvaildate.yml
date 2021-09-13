@@ -16,7 +16,6 @@ jobs:
         uses: DerYeger/yarn-setup-action@master
         with:
           node-version: 16
-        run: yarn install
       - name: Setup Java 8
         uses: actions/setup-java@v2
         with: 
@@ -35,6 +34,9 @@ jobs:
       - name: Install HTML5 Validator
         run: |
           pip install html5validator
+      - name: Install Dependencies
+        run: |
+          yarn install
       - name: Validate HTML + CSS Files
         run: |
           html5vaildator index.html --root _Lesson-1/ --also-check-css
