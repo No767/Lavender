@@ -1,4 +1,4 @@
-name: HTML5 Validater
+name: HTML5 Validator
 on: 
   push: 
     branches: 
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
-      - name: Setup Yarn + Install Dependencies
+      - name: Set up Yarn
         uses: DerYeger/yarn-setup-action@master
         with:
           node-version: 16
@@ -39,4 +39,4 @@ jobs:
           yarn install
       - name: Validate HTML + CSS Files
         run: |
-          html5vaildator index.html --root _Lesson-1/ --also-check-css
+          html5vaildator index.html --root _Lesson-1/
