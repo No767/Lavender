@@ -38,6 +38,5 @@ jobs:
         run: |
           yarn install
       - name: Validate HTML + CSS Files
-        uses: Cyb3r-Jak3/html5validator-action
-        with:
-          root: Lessons/
+        run: |
+          html5validator
