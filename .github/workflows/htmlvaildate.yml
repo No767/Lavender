@@ -39,4 +39,4 @@ jobs:
           yarn install
       - name: Validate HTML + CSS Files
         run: |
-          html5validator --root Lesson-1/
+          html5validator --root Lessons/
