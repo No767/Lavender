@@ -16,17 +16,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - name: Install npm Dependencies
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - run: npm install
-      - name: Install Yarn Dependencies
+        run: npm install
+      - name: Set up Yarn
         uses: DerYeger/yarn-setup-action@master
         with:
           node-version: 16
-        run: |
-          yarn install
+        run: yarn install
       - name: Format with Prettier
         run: |
           yarn prettier --write Lessons/
