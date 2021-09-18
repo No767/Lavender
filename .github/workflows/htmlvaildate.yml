@@ -34,9 +34,17 @@ jobs:
       - name: Install HTML5 Validator
         run: |
           pip install html5validator
-      - name: Install Dependencies
+      - name: Install npm Dependencies
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
       - run: npm install
-      - run: yarn install
+      - name: Install Yarn Dependencies
+        uses: DerYeger/yarn-setup-action@master
+        with:
+          node-version: 16
+        run: |
+          yarn install
       - name: Validate HTML + CSS Files
         run: |
           html5validator
