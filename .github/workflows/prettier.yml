@@ -21,7 +21,9 @@ jobs:
         uses: DerYeger/yarn-setup-action@master
         with:
           node-version: 16
-        run: yarn install
+      - name: Install Yarn Dependencies
+        run: |
+          yarn install
       - name: Format with Prettier
         run: |
           yarn prettier --write Lessons/
