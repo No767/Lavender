@@ -1,0 +1,140 @@
+.nav-pills li {
+    width: 300px;
+    text-align: center;
+    padding: 0.5rem;
+} 
+
+.nav-pills a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nav-pills > li > a.active {
+    background-color: #aba1ff !important;
+    color: #ffffff !important;
+  }
+  
+  .nav-pills > li > a:hover {
+    color: #90ffe3 !important;
+  }
+  
+  .nav-link-color {
+    color: #ff64d8;
+  }
+
+  .button-background {
+    background-color: #aba1ff;
+    font-family: 'Courier New'
+
+  }
+
+  .button-color {
+    color: #ffffff
+  }
+
+  .narbar-grey {
+    background-color: black;
+  }
+
+.dropdown-menu {
+    text-align:center;
+}
+
+.bi-menu-button-fill {
+    padding-right: 1rem;
+}
+
+.bi-pencil-fill {
+    padding-right: 1rem;
+}
+
+.bi-github {
+    padding-right: 1rem;
+}
+
+.bi-house {
+    padding-right: 1rem;
+}
+
+.bi-question-circle {
+    padding-right: 1rem;
+}
+
+.mx-auto-2 {
+  padding-left: 5rem;
+}
+.bi-flower2 {
+  padding-right: 0.5rem;
+}
+
+.bi-vector-pen {
+  padding-right: 0.5rem;
+}
+
+.bi-book {
+  padding-right: 1rem;
+}
+
+.bi-info-circle {
+  padding-right: 0.7rem;
+}
+
+.more-is-needed {
+  height: 25rem;
+}
+
+.font {
+  font-size: 28px;
+}
+
+.more-space {
+  height: 33rem;
+}
+
+.jumbotron-2 {
+  display: flex;
+  background-image: linear-gradient(120deg, #9c9fff, #b8eeff, #ed94ff);
+}
+
+.row-one {
+  background-color: #d1f4ff;
+}
+
+@media only screen and (max-width: 993px) {
+  .block {
+    text-align: center;
+  }
+
+}
+
+.material-icons.md-48 {
+  font-size: 150px;
+}
+
+.btn {
+  background-color: #bddfff;
+  color: black;
+  font-size: 20px;
+}
+
+.btn-outline-dark:hover {
+  background-color: rgb(210, 235, 255);
+  color: rgb(0, 0, 0)
+}
+
+.bi-file-text {
+  padding-right: 0.75rem;
+}
+
+.hr-width {
+  width: 30%;
+}
+
+.page-item > a:hover{ 
+  background-color: #8c73ff;
+  color: white;
+}
+
+.spacingv2{
+    text-align: center;
+}
