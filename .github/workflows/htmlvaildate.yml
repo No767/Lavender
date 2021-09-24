@@ -1,0 +1,49 @@
+name: HTML5 Validator
+on: 
+  push: 
+    branches: 
+      - master
+  pull_request: 
+    branches: 
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with: 
+          node-version: '16'
+      - name: Set up Yarn
+        uses: DerYeger/yarn-setup-action@master
+        with:
+          node-version: 16
+      - name: Set up Java 8
+        uses: actions/setup-java@v2
+        with: 
+          distribution: 'temurin'
+          java-version: '8'
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with: 
+          python-version: 3.9
+      - name: Upgrade Pip
+        run: |
+          pip install --upgrade pip
+      - name: Upgrade Setuptools + Wheel
+        run: |
+          pip install --upgrade setuptools wheel
+      - name: Install HTML5 Validator
+        run: |
+          pip install html5validator
+      - name: Install npm Dependencies
+        run: |
+          npm install
+      - name: Install Yarn Dependencies
+        run: | 
+          yarn install
+      - name: Validate HTML + CSS Files
+        run: |
+          html5validator

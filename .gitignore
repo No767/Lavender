@@ -2,4 +2,10 @@ node_modules
 .vscode
 *.vscode
 *.idea
+<<<<<<< HEAD
 .idea
+=======
+.idea
+.dccache
+*.dccache
+>>>>>>> refs/remotes/origin/master
