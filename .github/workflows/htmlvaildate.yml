@@ -46,4 +46,4 @@ jobs:
           yarn install
       - name: Validate HTML + CSS Files
         run: |
-          html5validator --blacklist img/
+          html5validator --blacklist assets/
