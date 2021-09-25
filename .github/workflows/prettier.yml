@@ -28,4 +28,4 @@ jobs:
           yarn install
       - name: Format with Prettier
         run: |
-          yarn prettier --write Lessons/
+          yarn prettier --write Mini Projects/
