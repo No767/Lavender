@@ -1,64 +1,60 @@
 .ptv2 {
-    padding-top: 6rem;
-    
+  padding-top: 6rem;
 }
 .nav-pills li {
-    width: 300px;
-    text-align: center;
-    padding: 0.5rem;
-} 
-
-.nav-pills a {
-    font-family: 'Courier New', Courier, monospace;
+  width: 300px;
+  text-align: center;
+  padding: 0.5rem;
 }
 
+.nav-pills a {
+  font-family: "Courier New", Courier, monospace;
+}
 
 .nav-pills > li > a.active {
-    background-color: #aba1ff !important;
-    color: #ffffff !important;
-  }
-  
-  .nav-pills > li > a:hover {
-    color: #90ffe3 !important;
-  }
-  
-  .nav-link-color {
-    color: #ff64d8;
-  }
+  background-color: #aba1ff !important;
+  color: #ffffff !important;
+}
 
-  .button-background {
-    background-color: #aba1ff;
-    font-family: 'Courier New'
+.nav-pills > li > a:hover {
+  color: #90ffe3 !important;
+}
 
-  }
+.nav-link-color {
+  color: #ff64d8;
+}
 
-  .button-color {
-    color: #ffffff
-  }
+.button-background {
+  background-color: #aba1ff;
+  font-family: "Courier New";
+}
 
-  .narbar-grey {
-    background-color: black;
-  }
+.button-color {
+  color: #ffffff;
+}
+
+.narbar-grey {
+  background-color: black;
+}
 
 .dropdown-menu {
-    text-align:center;
+  text-align: center;
 }
 
 .bi-menu-button-fill {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .bi-pencil-fill {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
-
 .bi-house {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .bi-question-circle {
-    padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .mx-auto-2 {
@@ -113,7 +109,7 @@
 
 .btn-outline-dark:hover {
   background-color: rgb(210, 235, 255);
-  color: rgb(0, 0, 0)
+  color: rgb(0, 0, 0);
 }
 
 .bi-file-text {
@@ -127,15 +123,14 @@
 .bi-tree {
   padding-right: 0.75rem;
 }
-.page-item > a:hover{ 
+.page-item > a:hover {
   background-color: #8c73ff;
   color: white;
 }
 
-.spacingv2{
-    text-align: center;
+.spacingv2 {
+  text-align: center;
 }
-
 
 .footer-pos {
   text-align: center;
@@ -159,13 +154,12 @@ body {
 }
 
 .padv2 {
-  padding-top: 5rem ;
+  padding-top: 5rem;
 }
 
 .padv3 {
   padding-top: 8rem;
   padding-bottom: 2rem;
-
 }
 .adjust {
   font-size: 128px;
