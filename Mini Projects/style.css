@@ -1,3 +1,7 @@
+.ptv2 {
+    padding-top: 6rem;
+    
+}
 .nav-pills li {
     width: 300px;
     text-align: center;
@@ -48,9 +52,6 @@
     padding-right: 1rem;
 }
 
-.bi-github {
-    padding-right: 1rem;
-}
 
 .bi-house {
     padding-right: 1rem;
@@ -88,20 +89,16 @@
 }
 
 .more-space {
-  height: 33rem;
+  height: 25rem;
 }
 
 .jumbotron-2 {
   display: flex;
-  background-image: linear-gradient(120deg, #9c9fff, #b8eeff, #ed94ff);
-}
-
-
-@media only screen and (max-width: 993px) {
-  .block {
-    text-align: center;
-  }
-
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 2;
 }
 
 .material-icons.md-48 {
@@ -139,19 +136,62 @@
     text-align: center;
 }
 
-ul {
-  display: table; 
-  margin: 0 auto;
-  text-align: left;
-}
-
-ol {
-  display: table; 
-  margin: 0 auto;
-  text-align: left;
-}
 
 .footer-pos {
   text-align: center;
   height: 33rem;
+}
+
+.centered {
+  padding-top: 7rem;
+}
+
+.background-colorv1 {
+  background-color: rgb(39, 39, 39);
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.color {
+  color: white;
+}
+
+.padv2 {
+  padding-top: 5rem ;
+}
+
+.padv3 {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+
+}
+.adjust {
+  font-size: 128px;
+}
+
+.adjustv2 {
+  padding-right: 1rem;
+}
+
+.github-sizing {
+  font-size: 28px;
+}
+
+.padv4 {
+  padding-top: 7rem;
+}
+
+.github-color:hover {
+  cursor: pointer;
+  color: rgb(170, 170, 170);
+}
+
+.github-color {
+  color: white;
+}
+
+.p6 {
+  padding-bottom: 1.2rem;
 }
