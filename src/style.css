@@ -90,7 +90,7 @@
 
 .jumbotron-2 {
   display: flex;
-  background-image: url("assets/background.png");
+  background-image: url("assets/background.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,4 +188,16 @@ body {
 
 .p6 {
   padding-bottom: 1.2rem;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ol {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
 }
