@@ -6,7 +6,7 @@
   "author": "No767",
   "license": "Apache-2.0",
   "dependencies": {
-    "@popperjs/core": "^2.10.1",
+    "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.1",
     "dart-sass": "^1.25.0",
     "simple-icons": "^5.16.0"
