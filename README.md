@@ -17,7 +17,7 @@ Via [npm](https://www.npmjs.com/) and [Yarn](https://yarnpkg.com/). Make sure yo
 
 `yarn install`
 
-# Docker Imagery
+# Docker Image
 
 You must run it with this command:
 
