@@ -16,3 +16,9 @@ Via [npm](https://www.npmjs.com/) and [Yarn](https://yarnpkg.com/). Make sure yo
 `npm install`
 
 `yarn install`
+
+# Docker Imagery
+
+You must run it with this command:
+
+`docker run -v /tmp/conf/my_nginx.conf:/data/conf/nginx.conf:ro -p 8080:80 no767/lavender`

@@ -1,6 +1,6 @@
 FROM nginx:1.21.3
-WORKDIR /Lessons
-COPY Lessons/Lesson-2/index.html /data/www;
-COPY nginx.conf /etc/nginx/nginx.conf
+WORKDIR /src
+COPY src ./src /usr/share/nginx/html/
+COPY ./src/recipe/recipe.html ./src/recipe/ /usr/share/nginx/html/projects/recipe/
 ENV PORT=8080
 EXPOSE 8080
