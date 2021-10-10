@@ -29,23 +29,12 @@
     font-family: "Courier New";
 }
 
-.button-color {
-    color: #ffffff;
-}
-
-.narbar-grey {
-    background-color: black;
-}
 
 .dropdown-menu {
     text-align: center;
 }
 
-.bi-menu-button-fill {
-    padding-right: 1rem;
-}
-
-.bi-pencil-fill {
+.bi-egg-fried {
     padding-right: 1rem;
 }
 
@@ -60,13 +49,7 @@
 .mx-auto-2 {
     padding-left: 5rem;
 }
-.bi-flower2 {
-    padding-right: 0.5rem;
-}
 
-.bi-vector-pen {
-    padding-right: 0.5rem;
-}
 
 .bi-book {
     padding-right: 1rem;
@@ -200,4 +183,12 @@ ol {
     display: table;
     margin: 0 auto;
     text-align: left;
+}
+
+.bi-controller {
+    padding-right: 0.75rem;
+}
+
+.bi-phone {
+    padding-right: 0.75rem;
 }
