@@ -30,7 +30,7 @@ jobs:
           yarn install
       - name: Format with Prettier
         run: |
-          yarn prettier --write ./src
+          yarn prettier --write /src
       - name: Commit And Push All Changes
         uses: EndBug/add-and-commit@v7
         with:
