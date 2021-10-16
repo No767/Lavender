@@ -90,7 +90,7 @@
 
 .jumbotron-2 {
     display: flex;
-    background-image: url("../assets/background.webp");
+    background-image: url("../assets/backgroundv3.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -204,4 +204,22 @@ ol {
 
 .bi-egg-fried {
     padding-right: 0.75rem;
+}
+
+.img-border {
+    border: 8px solid pink ;
+    border-radius: 50px;
+}
+
+.img-borderv2 {
+    border: 3px solid pink;
+    border-radius: 15px;
+}
+
+.links {
+    color: pink;
+}
+
+.links:hover {
+    color:rgb(198, 255, 252);
 }
