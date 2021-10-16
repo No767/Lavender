@@ -46,7 +46,7 @@
 
 "@popperjs/core@^2.10.2":
   version "2.10.2"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
+  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.10.2.tgz"
   integrity sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==
 
 "@types/parse-json@^4.0.0":
@@ -102,7 +102,7 @@ arg@^5.0.1:
 
 autoprefixer@^10.3.7:
   version "10.3.7"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.3.7.tgz#cef2562058406bd378c94aacda36bb46a97b3186"
+  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.3.7.tgz"
   integrity sha512-EmGpu0nnQVmMhX8ROoJ7Mx8mKYPlcUHuxkwrRYEYMz85lu7H09v8w6R1P0JPdn/hKU32GjpLBFEOuIlDWCRWvg==
   dependencies:
     browserslist "^4.17.3"
@@ -124,7 +124,7 @@ binary-extensions@^2.0.0:
 
 bootstrap@^5.1.3:
   version "5.1.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.1.3.tgz#ba081b0c130f810fa70900acbc1c6d3c28fa8f34"
+  resolved "https://registry.npmjs.org/bootstrap/-/bootstrap-5.1.3.tgz"
   integrity sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==
 
 brace-expansion@^1.1.7:
@@ -144,7 +144,7 @@ braces@^3.0.1, braces@~3.0.2:
 
 browserslist@^4.17.3:
   version "4.17.3"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.17.3.tgz#2844cd6eebe14d12384b0122d217550160d2d624"
+  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.17.3.tgz"
   integrity sha512-59IqHJV5VGdcJZ+GZ2hU5n4Kv3YiASzW6Xk5g9tf5a/MAzGeFwgGWU39fVzNIOVcgB3+Gp+kiQu0HEfTVU/3VQ==
   dependencies:
     caniuse-lite "^1.0.30001264"
@@ -170,7 +170,7 @@ camelcase-css@^2.0.1:
 
 caniuse-lite@^1.0.30001264:
   version "1.0.30001264"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001264.tgz#88f625a60efb6724c7c62ac698bc8dbd9757e55b"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001264.tgz"
   integrity sha512-Ftfqqfcs/ePiUmyaySsQ4PUsdcYyXG2rfoBVsk3iY1ahHaJEw65vfb7Suzqm+cEkwwPIv/XWkg27iCpRavH4zA==
 
 chalk@^2.0.0:
@@ -314,7 +314,7 @@ dlv@^1.1.3:
 
 electron-to-chromium@^1.3.857:
   version "1.3.858"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.858.tgz#49eb5be51faa85fc85d153e8be527eef7ff99121"
+  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.858.tgz"
   integrity sha512-EZ0dTXxTX+rgZC8YDVqKNMyp1Ty3hi1LyQwVBBioV7iiYYjFakokumRsIUhNz5ho+QlNKf7iNY5KLdpdH3yqBw==
 
 error-ex@^1.3.1:
@@ -615,7 +615,7 @@ modern-normalize@^1.1.0:
 
 nanoid@^3.1.28:
   version "3.1.28"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.28.tgz#3c01bac14cb6c5680569014cc65a2f26424c6bd4"
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.28.tgz"
   integrity sha512-gSu9VZ2HtmoKYe/lmyPFES5nknFrHa+/DT9muUFWFMi6Jh9E1I7bkvlQ8xxf1Kos9pi9o8lBnIOkatMhKX/YUw==
 
 node-emoji@^1.11.0:
@@ -627,7 +627,7 @@ node-emoji@^1.11.0:
 
 node-releases@^1.1.77:
   version "1.1.77"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.77.tgz#50b0cfede855dd374e7585bf228ff34e57c1c32e"
+  resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.77.tgz"
   integrity sha512-rB1DUFUNAN4Gn9keO2K1efO35IDK7yKHCdCaIMvFO7yUYmmZYeDjnGKle26G4rwj+LKRQpjyUUvMkPglwGCYNQ==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
@@ -686,7 +686,7 @@ path-type@^4.0.0:
 
 picocolors@^0.2.1:
   version "0.2.1"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-0.2.1.tgz#570670f793646851d1ba135996962abad587859f"
+  resolved "https://registry.npmjs.org/picocolors/-/picocolors-0.2.1.tgz"
   integrity sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
@@ -738,7 +738,7 @@ postcss-value-parser@^4.1.0:
 
 postcss@^8.1.6, postcss@^8.2.1, postcss@^8.3.9:
   version "8.3.9"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.9.tgz#98754caa06c4ee9eb59cc48bd073bb6bd3437c31"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.3.9.tgz"
   integrity sha512-f/ZFyAKh9Dnqytx5X62jgjhhzttjZS7hMsohcI7HEI5tjELX/HxCy3EFhsRxyzGvrzFF+82XPvCS8T9TFleVJw==
   dependencies:
     nanoid "^3.1.28"
@@ -747,7 +747,7 @@ postcss@^8.1.6, postcss@^8.2.1, postcss@^8.3.9:
 
 prettier@2.4.1:
   version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-2.4.1.tgz"
   integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
 pretty-hrtime@^1.0.3:
@@ -839,7 +839,7 @@ run-parallel@^1.1.9:
 
 simple-icons@^5.18.0:
   version "5.18.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.18.0.tgz#22393e8f4a2f80d1b328bdf497daf2d4eeb7cd01"
+  resolved "https://registry.npmjs.org/simple-icons/-/simple-icons-5.18.0.tgz"
   integrity sha512-qUAdUVrW4KtLr4tiSdFe6ItnXq1qfBByH5XbnpYBm5+Am1a1P54KCvz6Pz2iSRi9puU+VxgblhNg/ANJsW1/iQ==
 
 simple-swizzle@^0.2.2:
@@ -870,7 +870,7 @@ supports-color@^7.1.0:
 
 tailwindcss@^2.2.17:
   version "2.2.17"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.17.tgz#c6332731f9ff1b6628ff589c95c38685347775e3"
+  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.17.tgz"
   integrity sha512-WgRpn+Pxn7eWqlruxnxEbL9ByVRWi3iC10z4b6dW0zSdnkPVC4hPMSWLQkkW8GCyBIv/vbJ0bxIi9dVrl4CfoA==
   dependencies:
     arg "^5.0.1"
