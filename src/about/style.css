@@ -223,3 +223,11 @@ ol {
 .links:hover {
     color:rgb(198, 255, 252);
 }
+
+.bi-phone {
+    padding-right: 0.75rem;
+}
+
+.bi-controller {
+    padding-right: 0.75rem;
+}
