@@ -207,7 +207,7 @@ ol {
 }
 
 .img-border {
-    border: 8px solid pink ;
+    border: 8px solid pink;
     border-radius: 50px;
 }
 
@@ -221,5 +221,5 @@ ol {
 }
 
 .links:hover {
-    color:rgb(198, 255, 252);
+    color: rgb(198, 255, 252);
 }
