@@ -40,4 +40,4 @@ jobs:
           add: 'src/ --force --all'
           push: true
           branch: master
-          pull: '--no-rebase --set-upstream-to=origin/master'
+          pull: '--no-rebase --force'
