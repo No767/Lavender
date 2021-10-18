@@ -13,6 +13,8 @@ The Digital Portfolio for CS
 
 Via [npm](https://www.npmjs.com/) and [Yarn](https://yarnpkg.com/). Make sure you have [Node.js](https://nodejs.org/en/) installed.
 
+`cd src`
+    
 `npm install`
 
 `yarn install`
