@@ -11,13 +11,12 @@ The Digital Portfolio for CS
     
 # Building
 
-Via [npm](https://www.npmjs.com/) and [Yarn](https://yarnpkg.com/). Make sure you have [Node.js](https://nodejs.org/en/) installed.
+Via [npm](https://www.npmjs.com/). Make sure you have [Node.js](https://nodejs.org/en/) installed.
 
 `cd src`
     
 `npm install`
 
-`yarn install`
 
 # Docker Image
 
