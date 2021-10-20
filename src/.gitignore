@@ -1,0 +1,9 @@
+node_modules
+.vscode
+*.vscode
+*.idea
+.idea
+.dccache
+*.dccache
+src/node_modules
+./node_modules
