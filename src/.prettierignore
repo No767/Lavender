@@ -1,0 +1,12 @@
+.github
+workflows
+node_modules
+Dockerfile
+Gemfile
+Gemfile.lock
+LICENSE.txt
+package.json
+package-lock.json
+yarn.lock
+CODE_OF_CONDUCT.md
+contributing.md
