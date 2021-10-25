@@ -190,3 +190,46 @@ ol {
 .bi-phone {
     padding-right: 0.75rem;
 }
+
+.jumbotron-3 {
+    display: flex;
+    background-image: url("https://raw.githubusercontent.com/No767/Lavender/master/src/assets/background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 2;
+  }
+  
+  .bi-egg-fried {
+    padding-right: 1rem;
+  }
+  
+  .jumbotron-4 {
+    display: flex;
+    background-image: url("https://raw.githubusercontent.com/No767/Lavender/master/src/assets/img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 2;
+  }
+  
+  .text-color-v1 {
+    color: #696969;
+  }
+  
+  .jumbotron-5 {
+    display: flex;
+    background-image: url("wonton.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 2;
+  }
+  
+  .links {
+    color: pink;
+  }
+  
+  .links:hover {
+    color: rgb(198, 255, 252);
+  }
