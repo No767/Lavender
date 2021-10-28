@@ -219,7 +219,7 @@ ol {
   
   .jumbotron-5 {
     display: flex;
-    background-image: url("wonton.jpg");
+    background-image: url("../assets/wonton.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
