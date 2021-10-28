@@ -198,38 +198,38 @@ ol {
     background-position: center;
     background-size: cover;
     flex-shrink: 2;
-  }
-  
-  .bi-egg-fried {
+}
+
+.bi-egg-fried {
     padding-right: 1rem;
-  }
-  
-  .jumbotron-4 {
+}
+
+.jumbotron-4 {
     display: flex;
     background-image: url("https://raw.githubusercontent.com/No767/Lavender/master/src/assets/img.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-shrink: 2;
-  }
-  
-  .text-color-v1 {
+}
+
+.text-color-v1 {
     color: #696969;
-  }
-  
-  .jumbotron-5 {
+}
+
+.jumbotron-5 {
     display: flex;
     background-image: url("../assets/wonton.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-shrink: 2;
-  }
-  
-  .links {
+}
+
+.links {
     color: pink;
-  }
-  
-  .links:hover {
+}
+
+.links:hover {
     color: rgb(198, 255, 252);
-  }
+}
