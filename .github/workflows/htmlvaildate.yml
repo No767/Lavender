@@ -28,14 +28,6 @@ jobs:
       - name: Upgrade Pip
         run: |
           pip install --upgrade pip
-      - name: Cache/Uncache pip dependencies
-        id: cache-pip
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
       - name: Cache/Uncache npm dependencies
         id: cache-npm
         uses: actions/cache@v2
@@ -49,8 +41,7 @@ jobs:
         run: |
           cd src
           npm install
-      - name: Install Pip dependencies
-        if: steps.cache-pip.outputs.cache-hit != 'true'
+      - name: Install Python dependencies
         run: |
           pip install -r requirements.txt
       - name: Validate HTML + CSS Files
