@@ -17,7 +17,6 @@ Via [npm](https://www.npmjs.com/). Make sure you have [Node.js](https://nodejs.o
     
 `npm install`
 
-
 # Docker Image
 
 You must run it with this command:
@@ -25,3 +24,19 @@ You must run it with this command:
 `docker run -v /tmp/conf/my_nginx.conf:/data/conf/nginx.conf:ro -p 8080:80 no767/lavender`
 
 Docker support is something that I am working on, so it may take some time to get right
+
+# React
+
+There is an optional version of this site built with [React](https://reactjs.org/). In order to get it set up, run these cmds:
+
+```sh 
+cd react-lavender && npm install
+```
+
+And if you want to run the dev server:
+
+```sh
+npm run dev
+```
+
+The react version was bootstraped with Vite if you wanted to know...
