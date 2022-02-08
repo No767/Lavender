@@ -13,35 +13,27 @@ The Digital Portfolio for CS
     
         
 **Note that Lavender will be completely rewritten in React fairly soon. React Router and Next.js may be needed**
-    
+
 # Building
 
-Via [npm](https://www.npmjs.com/). Make sure you have [Node.js](https://nodejs.org/en/) installed.
+Lavender now will be using Next.js as the main React framework. 
 
-`cd src`
-    
-`npm install`
+## Next.js 
 
-# Docker Image
+Installing Dependencies:
 
-You must run it with this command:
-
-`docker run -v /tmp/conf/my_nginx.conf:/data/conf/nginx.conf:ro -p 8080:80 no767/lavender`
-
-Docker support is something that I am working on, so it may take some time to get right
-
-# React
-
-There is an optional version of this site built with [React](https://reactjs.org/). In order to get it set up, run these cmds:
-
-```sh 
-cd react-lavender && npm install
+```sh
+cd nextjs-lavender && npm install
 ```
 
-And if you want to run the dev server:
+Running Dev Server:
 
 ```sh
 npm run dev
 ```
 
-The react version was bootstraped with Vite if you wanted to know...
+
+
+
+
+
