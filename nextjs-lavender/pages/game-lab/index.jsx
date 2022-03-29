@@ -1,3 +1,3 @@
 export default function gameLab() {
-    return null;
+  return null;
 }

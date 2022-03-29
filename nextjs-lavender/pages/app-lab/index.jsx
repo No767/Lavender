@@ -1,3 +1,3 @@
 export default function appLab() {
-    return null;
+  return null;
 }
