@@ -19,4 +19,4 @@ nextjs-lavender/.eslintrc.json
 nextjs-lavender/.prettierignore
 nextjs-lavender/public/
 nextjs-lavender/node_modules/
-nextjs-lavender/.next
+nextjs-lavender/.next/
