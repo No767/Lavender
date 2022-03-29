@@ -20,3 +20,4 @@ nextjs-lavender/.prettierignore
 nextjs-lavender/public/
 nextjs-lavender/node_modules/
 nextjs-lavender/.next/
+.next/
