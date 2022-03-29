@@ -6,8 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier --ignore-path .prettierignore --write .",
-    "prepare": "husky install"
+    "format": "npx prettier --ignore-path .prettierignore --write ."
   },
   "dependencies": {
     "@mantine/core": "^3.6.9",
