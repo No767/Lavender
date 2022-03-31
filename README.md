@@ -10,7 +10,7 @@ The Digital Portfolio for CS
 
 # Notes
 
-** Note that Lavender is completely rewritten using Next.js. Please refer to the [Next.js documentation](https://nextjs.org/docs) for more information.**
+**Note that Lavender is completely rewritten using Next.js. Please refer to the [Next.js documentation](https://nextjs.org/docs) for more information.**
 
 # Building
 
