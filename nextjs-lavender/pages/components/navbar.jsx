@@ -17,7 +17,11 @@ export function Navbar({}) {
       padding="md"
       header={
         <Header height={60} padding="xs">
-          <Group spacing="xl" position="center">
+          <Group
+            spacing="xl"
+            position="center"
+            sx={{ paddingTop: 10, paddingBottom: 10 }}
+          >
             <Button
               variant="outline"
               style={{
