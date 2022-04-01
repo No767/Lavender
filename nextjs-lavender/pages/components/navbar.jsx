@@ -25,6 +25,7 @@ export function Navbar({}) {
               variant="outline"
               style={{
                 width: 150,
+                color: "#FFFFFF",
               }}
               leftIcon={<SiGithub />}
               component="a"
@@ -40,6 +41,7 @@ export function Navbar({}) {
                     width: 150,
                   }}
                   leftIcon={<BsBook />}
+                  sx={{ color: "#FFFFFF" }}
                 >
                   <Text size="sm">Portfolio</Text>
                 </Button>
@@ -51,9 +53,17 @@ export function Navbar({}) {
                 placement="center"
                 icon={<MdHome />}
                 component="a"
+                href="/"
+              >
+                Site Home
+              </Menu.Item>
+              <Menu.Item
+                placement="center"
+                icon={<MdHome />}
+                component="a"
                 href="/home"
               >
-                Home
+                Portfolio Home
               </Menu.Item>
               <Menu.Item
                 placement="center"

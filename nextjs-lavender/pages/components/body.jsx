@@ -1,43 +1,44 @@
 import React from "react";
-import { Text, Group, Title, Divider } from "@mantine/core";
+import { Text, Group, Title, Divider, BackgroundImage } from "@mantine/core";
 import { SiGithub } from "react-icons/si";
 import { MdBolt, MdOutlineCollections } from "react-icons/md";
 
 export function Body({}) {
   return (
     <>
-      <Title
-        align="center"
+      <BackgroundImage
+        src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/main-assets/background.png"
         sx={{
-          color: "#F8F9FA",
-          paddingTop: 120,
+          height: 350,
         }}
       >
-        Lavender
-      </Title>
-      <Title
-        order={2}
-        align="center"
-        x={{
-          color: "#FFFFFF",
-          paddingTop: 35,
-        }}
-      >
-        The Digital Portfolio for CS
-      </Title>
-      <Divider
-        size="sm"
-        sx={{
-          marginTop: 100,
-        }}
-      />
+        <Title
+          align="center"
+          sx={{
+            color: "#F8F9FA",
+            paddingTop: 120,
+          }}
+        >
+          Lavender
+        </Title>
+        <Title
+          order={2}
+          align="center"
+          x={{
+            color: "#FFFFFF",
+            paddingTop: 35,
+          }}
+        >
+          The Digital Portfolio for CS
+        </Title>
+      </BackgroundImage>
 
       <Title
         order={3}
         align="center"
         sx={{
           color: "#F8F9FA",
-          paddingTop: 50,
+          paddingTop: 25,
           paddingBottom: 100,
         }}
       >
