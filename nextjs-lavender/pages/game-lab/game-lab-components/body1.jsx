@@ -26,10 +26,9 @@ export function Body1({}) {
         <Text size="lg" align="center">
           So as you can see, this is Game Lab 1, where we had to make some
           images with lines and different functions pre-compiled by Code.org.
-          This was written in Javascript (it's not true JS) and used some
-          functions in order to do it. It isn't the best, but does the job.
-          It`&#39;`s supposed to be someone with cat ears, but I messed up on
-          the ears
+          This was written in Javascript and used some functions in order to do
+          it. It isn`&#39;`t the best, but does the job. It`&#39;`s supposed to
+          be someone with cat ears, but I messed up on the ears
         </Text>
       </Stack>
       <Stack
