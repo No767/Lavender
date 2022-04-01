@@ -1,5 +1,6 @@
 import React from "react";
 import { BackgroundImage, Title } from "@mantine/core";
+
 export function HeroHeader({}) {
   return (
     <BackgroundImage
