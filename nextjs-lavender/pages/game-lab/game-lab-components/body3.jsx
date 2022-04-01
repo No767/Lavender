@@ -26,10 +26,10 @@ export function Body3({}) {
         <Text size="lg" align="center">
           This was one of the interesting ones in my opinion. This is supposed
           to be a fly, but for each of the keys (left, right, up and down) you
-          pressed, the fly would switch it's rotation. This was done using the
-          rotation method. These were made with sprites from Code.org. And this
-          project was kinda challenging, but I managed to figure it out at the
-          end
+          pressed, the fly would switch it`&#39;`s rotation. This was done using
+          the rotation method. These were made with sprites from Code.org. And
+          this project was kinda challenging, but I managed to figure it out at
+          the end
         </Text>
       </Stack>
 
@@ -88,7 +88,7 @@ export function Body3({}) {
           game on chrome, this is the same concept. This was made with a
           partner, and the idea was that the carrots gave you the points, while
           the rocks took health away. You could use the arrow keys in order to
-          avoid them. This one was somewhat chanllenging, but not that much
+          avoid them. This one was somewhat challenging, but not that much
         </Text>
       </Stack>
     </>

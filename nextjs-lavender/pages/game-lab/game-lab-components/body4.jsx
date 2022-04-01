@@ -24,7 +24,7 @@ export function Body4({}) {
           href="https://studio.code.org/projects/gamelab/3AfmIVtiF9yfVT3TxNcLnzQ1tpKom33LwyMr8Dq_cHc"
         />
         <Text size="lg" align="center">
-          This is a flyer game, and it's designed to be rigged. There are
+          This is a flyer game, and it`&#39;`s designed to be rigged. There are
           creatures and if you touched them, you basically get sent flying off.
           The idea is that if you fell out of bounds, you would lose the game.
         </Text>
@@ -52,8 +52,8 @@ export function Body4({}) {
         <Text size="lg" align="center">
           As you can see here, this is meant to be a frogger game. The main
           player is that frog, and you have to avoid the balls rolling in your
-          way. And yes the name of it is literally called "Don't touch my
-          balls".
+          way. And yes the name of it is literally called `&#34;`Don't touch my
+          balls`&#34;`.
         </Text>
       </Stack>
 
@@ -79,9 +79,9 @@ export function Body4({}) {
         <Text size="lg" align="center" pb={50}>
           This one is the final project. This one is the virtual pet project,
           where the user is supposed to take care of the pet and essentially
-          make sure it doesn't pass away. If the pet does pass away, then it's
-          game over. The idea of it is from Tamagotchi, which was a really
-          popular toy back in the 2000's.
+          make sure it doesn`&#39;`t pass away. If the pet does pass away, then
+          it`&#39;`s game over. The idea of it is from Tamagotchi, which was a
+          really popular toy back in the 2000`&#39;`s.
         </Text>
       </Stack>
     </>

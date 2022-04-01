@@ -42,9 +42,9 @@ export function Body({}) {
           About
         </Title>
         <Text size="xl" align="center">
-          Hello there. I guess I should introduce myself... I'm Noelle, who is
-          the creator of this site. This is the home page, and this is the
-          portfolio of my works, so you can go check
+          Hello there. I guess I should introduce myself... I`&#39;`m Noelle,
+          who is the creator of this site. This is the home page, and this is
+          the portfolio of my works, so you can go check
         </Text>
       </Stack>
     </>
