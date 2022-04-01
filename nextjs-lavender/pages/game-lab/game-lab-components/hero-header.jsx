@@ -4,7 +4,7 @@ import { BackgroundImage, Title } from "@mantine/core";
 export function HeroHeader({}) {
   return (
     <BackgroundImage
-      src="https://raw.githubusercontent.com/No767/Lavender/dev/src/assets/img.png"
+      src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/main-assets/img.png"
       sx={{
         height: 300,
       }}

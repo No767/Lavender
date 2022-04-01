@@ -19,7 +19,7 @@ export function Body3({}) {
         </Title>
         <Image
           alt="Game Lab 7"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L15-Project-7.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L15-Project-7.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/HmMj36Vw5oP6Wo8QXgWHQdxv4BIdWD8mA9JonW2D6QE"
         />
@@ -48,7 +48,7 @@ export function Body3({}) {
         </Title>
         <Image
           alt="Game Lab 8"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L17-Interactive-Card.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L17-Interactive-Card.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/EXiarxcuMu5dSgclq06FmsJ444z3COCueyBjuR7YOUo"
         />
@@ -79,7 +79,7 @@ export function Body3({}) {
         </Title>
         <Image
           alt="Game Lab 9"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L20-Side-Scroller%20(1).png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L20-Side-Scroller%20(1).png"
           component="a"
           href="https://studio.code.org/projects/gamelab/Uk4Oj3SAOSJ3Z1RblrkOagjI967VvnMdIyx7bV_P0Pg"
         />

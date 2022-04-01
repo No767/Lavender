@@ -19,7 +19,7 @@ export function Body2({}) {
         </Title>
         <Image
           alt="Game Lab 4"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L10-Captioned-Sprite-Scene.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L10-Captioned-Sprite-Scene.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/zrhoKswOPzIgmrsDk7y3O_swac5navId0jQhgNrvjhY"
         />

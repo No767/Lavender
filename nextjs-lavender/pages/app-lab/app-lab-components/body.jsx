@@ -4,7 +4,7 @@ export function Body({}) {
   return (
     <>
       <BackgroundImage
-        src="https://raw.githubusercontent.com/No767/Lavender/master/src/assets/backgroundv3.webp"
+        src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/main-assets/backgroundv3.webp"
         sx={{
           height: 300,
         }}

@@ -19,7 +19,7 @@ export function Body4({}) {
         </Title>
         <Image
           alt="Game Lab 10"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L23-Flyer-Game%20(1).png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L23-Flyer-Game%20(1).png"
           component="a"
           href="https://studio.code.org/projects/gamelab/3AfmIVtiF9yfVT3TxNcLnzQ1tpKom33LwyMr8Dq_cHc"
         />
@@ -45,7 +45,7 @@ export function Body4({}) {
         </Title>
         <Image
           alt="Game Lab 10"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3-L27-Design-A-Game.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3-L27-Design-A-Game.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/zPZQcTSa5ohRqZum6y3ySrvH2Ycfimu2N5T1cRXEuKw"
         />
@@ -72,7 +72,7 @@ export function Body4({}) {
         </Title>
         <Image
           alt="Game Lab 12"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3-L28-Virtual-Pet-Project.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3-L28-Virtual-Pet-Project.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/l5u90hhJDPkgzsn8fN2891Xf43sRmCIZnigjXyxoUCw"
         />
