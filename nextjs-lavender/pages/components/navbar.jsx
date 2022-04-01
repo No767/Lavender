@@ -14,9 +14,8 @@ import {
 export function Navbar({}) {
   return (
     <AppShell
-      padding="md"
       header={
-        <Header height={60} padding="xs">
+        <Header height={60} padding="xs" fixed="true">
           <Group
             spacing="xl"
             position="center"

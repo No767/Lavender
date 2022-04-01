@@ -13,7 +13,7 @@ import { FaGithub, FaGitlab } from "react-icons/fa";
 export function Profile({}) {
   return (
     <>
-      <Stack align="center" justify="center" spacing="lg">
+      <Stack align="center" justify="center" spacing="lg" pt={50}>
         <Avatar
           src="https://avatars.githubusercontent.com/u/73260931?v=4"
           radius={360}
