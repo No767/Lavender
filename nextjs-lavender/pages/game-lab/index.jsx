@@ -3,8 +3,8 @@ import { Body2 } from "./game-lab-components/body2";
 import { Body3 } from "./game-lab-components/body3";
 import { Body4 } from "./game-lab-components/body4";
 import { HeroHeader } from "./game-lab-components/hero-header";
-import { Navbar } from "../components/navbar";
-import { Footer } from "../components/footer";
+import { Navbar } from "../../components/navbar";
+import { Footer } from "../../components/footer";
 import { MantineProvider } from "@mantine/core";
 import Head from "next/head";
 
