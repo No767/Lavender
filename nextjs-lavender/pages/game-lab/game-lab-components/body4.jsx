@@ -52,8 +52,7 @@ export function Body4({}) {
         <Text size="lg" align="center">
           As you can see here, this is meant to be a frogger game. The main
           player is that frog, and you have to avoid the balls rolling in your
-          way. And yes the name of it is literally called `&#34;`Don't touch my
-          balls`&#34;`.
+          way.
         </Text>
       </Stack>
 
