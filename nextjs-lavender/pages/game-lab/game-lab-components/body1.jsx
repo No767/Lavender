@@ -26,10 +26,10 @@ export function Body1({}) {
         <Text size="lg" align="center">
           So as you can see, this is Game Lab 1, where we had to make some
           images with lines and different functions pre-compiled by Code.org.
-          This was written in `&#34;`JavaScript`&#34;` (it's not true JS) and
-          used some functions in order to do it. It isn't the best, but does the
-          job. It`&#39;`s supposed to be someone with cat ears, but I messed up
-          on the ears
+          This was written in Javascript (it's not true JS) and used some
+          functions in order to do it. It isn't the best, but does the job.
+          It`&#39;`s supposed to be someone with cat ears, but I messed up on
+          the ears
         </Text>
       </Stack>
       <Stack
@@ -53,9 +53,8 @@ export function Body1({}) {
         />
         <Text size="lg" align="center">
           This is the game lab 2, and is supposed to be the Golden Gate Bridge.
-          We mainly wrote this in JS (it's not true JS nor TypeScript tbh), and
-          used some of the rect functions in order to create it. Also used the
-          arc function in order to do it
+          We mainly wrote this in JS, and used some of the rect functions in
+          order to create it. Also used the arc function in order to do it
         </Text>
       </Stack>
       <Stack
@@ -78,10 +77,10 @@ export function Body1({}) {
           href="https://studio.code.org/projects/gamelab/zrhoKswOPzIgmrsDk7y3O_swac5navId0jQhgNrvjhY"
         />
         <Text size="lg" align="center">
-          It's supposed to be a snake but it kinda moves. This one wasn`&#39;`t
-          as hard to add, compared to the other ones. It uses the randomNumber
-          function in order to assign the position of the circles that form the
-          snake
+          It`&#34;`s supposed to be a snake but it kinda moves. This one
+          wasn`&#39;`t as hard to add, compared to the other ones. It uses the
+          randomNumber function in order to assign the position of the circles
+          that form the snake
         </Text>
       </Stack>
     </>
