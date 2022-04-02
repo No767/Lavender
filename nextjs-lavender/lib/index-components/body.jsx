@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Group, Title, Divider, BackgroundImage } from "@mantine/core";
+import { Text, Group, Title, BackgroundImage } from "@mantine/core";
 import { SiGithub } from "react-icons/si";
 import { MdBolt, MdOutlineCollections } from "react-icons/md";
 
