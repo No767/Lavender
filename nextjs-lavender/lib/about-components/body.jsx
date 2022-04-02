@@ -7,6 +7,7 @@ import {
   SiReact,
   SiNextdotjs,
   SiFastapi,
+  SiDjango,
 } from "react-icons/si";
 
 export function Body({}) {
@@ -42,6 +43,7 @@ export function Body({}) {
           <SiReact />
           <SiNextdotjs />
           <SiFastapi />
+          <SiDjango />
         </Group>
       </Stack>
       <Divider
