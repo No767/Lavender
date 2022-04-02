@@ -1,7 +1,7 @@
-import { Body } from "./about-components/body";
-import { Profile } from "./about-components/profile";
-import { Navbar } from "../../components/navbar";
-import { Footer } from "../../components/footer";
+import { Body } from "../../lib/about-components/body";
+import { Profile } from "../../lib/about-components/profile";
+import { Navbar } from "../../lib/index-components/navbar";
+import { Footer } from "../../lib/index-components/footer";
 import { MantineProvider } from "@mantine/core";
 import Head from "next/head";
 

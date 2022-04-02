@@ -1,7 +1,7 @@
-import { HeroHeader } from "./recipe-components/hero-header";
-import { Body } from "./recipe-components/body";
-import { Navbar } from "../../components/navbar";
-import { Footer } from "../../components/footer";
+import { HeroHeader } from "../../lib/recipe-components/hero-header";
+import { Body } from "../../lib/recipe-components/body";
+import { Navbar } from "../../lib/index-components/navbar";
+import { Footer } from "../../lib/index-components/footer";
 import { MantineProvider } from "@mantine/core";
 import Head from "next/head";
 
