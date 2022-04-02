@@ -1,9 +1,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/src"
+    directory: "/nextjs-lavender"
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "[npm/yarn]"
+      prefix: "[npm]"
       include: "scope"

@@ -1,5 +1,0 @@
-FROM nginx:1.21.3
-WORKDIR /
-COPY src /src/
-ENV PORT=8080
-EXPOSE 8080
