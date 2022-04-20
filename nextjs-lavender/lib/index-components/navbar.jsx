@@ -1,4 +1,5 @@
 import React from "react";
+import { NextLink } from "@mantine/next";
 import { Button } from "@mantine/core";
 import { AppShell, Header, Text, Group } from "@mantine/core";
 import { SiGithub } from "react-icons/si";
@@ -10,7 +11,6 @@ import {
   MdVideogameAsset,
   MdSmartphone,
 } from "react-icons/md";
-import { NextLink } from "@mantine/next";
 
 export function Navbar({}) {
   return (

@@ -18,11 +18,11 @@ export function Body({}) {
           Description
         </Title>
         <Text size="xl" align="center" color="white">
-          Wontons have been something that I`&#34;`ve always eaten before. This
+          Wontons have been something that I&apos;ve always eaten before. This
           is a traditional Chinese dish, where it is just wrapped dumplings in a
           soup (usually chicken) and served hot. This is also sold at stores,
-          but I prefer homemade versions of it. It`&#34;`s a dish that can fill
-          you up and is really good combined with chicken broth. And it`&#34;`s
+          but I prefer homemade versions of it. It&apos;s a dish that can fill
+          you up and is really good combined with chicken broth. And it&apos;s
           best served on cold days, where the heat of the soup will fill your
           tummy up.
         </Text>
@@ -93,12 +93,17 @@ export function Body({}) {
           variant="link"
           component="a"
           href="https://www.flickr.com/photos/10559879@N00/5050352184"
+          target="_blank"
         >
-          `&#34;`Wonton Noodle Soup - close - Wonton House Swanston
-          AUD9.20`&#34;`{" "}
+          &quot;Wonton Noodle Soup - close - Wonton House Swanston AUD9.20&quot;{" "}
         </Text>
         by avlxyz is licensed under
-        <Text variant="link" component="a" href="https://mantine.dev">
+        <Text
+          variant="link"
+          component="a"
+          href="https://creativecommons.org/licenses/by-sa/2.0/"
+          target="_blank"
+        >
           {" "}
           CC BY-SA 2.0
         </Text>

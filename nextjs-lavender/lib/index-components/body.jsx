@@ -70,6 +70,7 @@ export function Body({}) {
             variant="link"
             component="a"
             href="https://nextjs.org/"
+            target="_blank"
           >
             Next.js
           </Text>

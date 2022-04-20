@@ -3,11 +3,14 @@ import { Text, Stack, Title, Avatar, Divider, Group } from "@mantine/core";
 import {
   SiPython,
   SiJavascript,
-  SiJava,
   SiReact,
   SiNextdotjs,
   SiFastapi,
-  SiDjango,
+  SiTypescript,
+  SiUbuntu,
+  SiFedora,
+  SiOpensuse,
+  SiArchlinux,
 } from "react-icons/si";
 
 export function Body({}) {
@@ -24,7 +27,7 @@ export function Body({}) {
           About
         </Title>
         <Text size="lg" color="white" align="center" mx={200} pb={25}>
-          Hey there! I`&#39;`m Noelle, a Full Stack Web Developer. I work with
+          Hey there! I&apos;m Noelle, a Full Stack Web Developer. I work with
           frameworks like React and Next.js, to backend frameworks like FastAPI.
           In fact, this whole entire website has been written using Next.js and
           Mantine
@@ -39,11 +42,14 @@ export function Body({}) {
         >
           <SiPython />
           <SiJavascript />
-          <SiJava />
+          <SiTypescript />
           <SiReact />
           <SiNextdotjs />
           <SiFastapi />
-          <SiDjango />
+          <SiUbuntu />
+          <SiFedora />
+          <SiOpensuse />
+          <SiArchlinux />
         </Group>
       </Stack>
       <Divider
