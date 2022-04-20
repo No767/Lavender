@@ -10,6 +10,7 @@ import {
   MdVideogameAsset,
   MdSmartphone,
 } from "react-icons/md";
+import { NextLink } from "@mantine/next";
 
 export function Navbar({}) {
   return (
@@ -51,54 +52,54 @@ export function Navbar({}) {
             <Menu.Item
               placement="center"
               icon={<MdHome />}
-              component="a"
+              component={NextLink}
               href="/"
-              target="_blank"
+              target="_self"
             >
               Site Home
             </Menu.Item>
             <Menu.Item
               placement="center"
               icon={<MdHome />}
-              component="a"
+              component={NextLink}
               href="/home"
-              target="_blank"
+              target="_self"
             >
               Portfolio Home
             </Menu.Item>
             <Menu.Item
               placement="center"
               icon={<MdOutlineInfo />}
-              component="a"
+              component={NextLink}
               href="/about"
-              target="_blank"
+              target="_self"
             >
               About
             </Menu.Item>
             <Menu.Item
               placement="center"
               icon={<BsEggFried />}
-              component="a"
+              component={NextLink}
               href="/recipe"
-              target="_blank"
+              target="_self"
             >
               Recipe
             </Menu.Item>
             <Menu.Item
               placement="center"
               icon={<MdVideogameAsset />}
-              component="a"
+              component={NextLink}
               href="/game-lab"
-              target="_blank"
+              target="_self"
             >
               Game Lab
             </Menu.Item>
             <Menu.Item
               placement="center"
               icon={<MdSmartphone />}
-              component="a"
+              component={NextLink}
               href="/app-lab"
-              target="_blank"
+              target="_self"
             >
               App Lab
             </Menu.Item>

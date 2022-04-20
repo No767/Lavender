@@ -27,8 +27,8 @@ export function Body1({}) {
           So as you can see, this is Game Lab 1, where we had to make some
           images with lines and different functions pre-compiled by Code.org.
           This was written in Javascript and used some functions in order to do
-          it. It isn`&#39;`t the best, but does the job. It`&#39;`s supposed to
-          be someone with cat ears, but I messed up on the ears
+          it. It isn&apos;t the best, but does the job. It&apos;s supposed to be
+          someone with cat ears, but I messed up on the ears
         </Text>
       </Stack>
       <Stack
@@ -46,7 +46,7 @@ export function Body1({}) {
         </Title>
         <Image
           alt="Game Lab 2"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L8-Golden-Gate-Bridge.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L8-Golden-Gate-Bridge.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/uUyykfp5rZUvI184aEzTB1XLYTMJpAPytp_znNzI3-o"
         />
@@ -71,13 +71,13 @@ export function Body1({}) {
         </Title>
         <Image
           alt="Game Lab 3"
-          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/pages/game-lab-assets/U3L6-Snake.png"
+          src="https://raw.githubusercontent.com/No767/Lavender/dev/nextjs-lavender/game-lab-assets/U3L6-Snake.png"
           component="a"
           href="https://studio.code.org/projects/gamelab/zrhoKswOPzIgmrsDk7y3O_swac5navId0jQhgNrvjhY"
         />
         <Text size="lg" align="center">
-          It`&#34;`s supposed to be a snake but it kinda moves. This one
-          wasn`&#39;`t as hard to add, compared to the other ones. It uses the
+          It&apos; supposed to be a snake but it kinda moves. This one
+          wasn&apos;t as hard to add, compared to the other ones. It uses the
           randomNumber function in order to assign the position of the circles
           that form the snake
         </Text>

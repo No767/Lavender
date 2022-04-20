@@ -26,7 +26,7 @@ export function Body3({}) {
         <Text size="lg" align="center">
           This was one of the interesting ones in my opinion. This is supposed
           to be a fly, but for each of the keys (left, right, up and down) you
-          pressed, the fly would switch it`&#39;`s rotation. This was done using
+          pressed, the fly would switch it&apos;s rotation. This was done using
           the rotation method. These were made with sprites from Code.org. And
           this project was kinda challenging, but I managed to figure it out at
           the end
