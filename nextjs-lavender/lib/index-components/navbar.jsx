@@ -53,6 +53,7 @@ export function Navbar({}) {
               icon={<MdHome />}
               component="a"
               href="/"
+              target="_blank"
             >
               Site Home
             </Menu.Item>
@@ -61,6 +62,7 @@ export function Navbar({}) {
               icon={<MdHome />}
               component="a"
               href="/home"
+              target="_blank"
             >
               Portfolio Home
             </Menu.Item>
@@ -69,6 +71,7 @@ export function Navbar({}) {
               icon={<MdOutlineInfo />}
               component="a"
               href="/about"
+              target="_blank"
             >
               About
             </Menu.Item>
@@ -77,6 +80,7 @@ export function Navbar({}) {
               icon={<BsEggFried />}
               component="a"
               href="/recipe"
+              target="_blank"
             >
               Recipe
             </Menu.Item>
@@ -85,6 +89,7 @@ export function Navbar({}) {
               icon={<MdVideogameAsset />}
               component="a"
               href="/game-lab"
+              target="_blank"
             >
               Game Lab
             </Menu.Item>
@@ -93,6 +98,7 @@ export function Navbar({}) {
               icon={<MdSmartphone />}
               component="a"
               href="/app-lab"
+              target="_blank"
             >
               App Lab
             </Menu.Item>
