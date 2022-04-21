@@ -18,16 +18,18 @@ export function Body({}) {
             color: "#F8F9FA",
             paddingTop: 120,
           }}
+          mx={25}
         >
           Lavender
         </Title>
         <Title
           order={2}
           align="center"
-          x={{
+          sx={{
             color: "#FFFFFF",
             paddingTop: 35,
           }}
+          mx={25}
         >
           The Digital Portfolio for CS
         </Title>
@@ -41,11 +43,12 @@ export function Body({}) {
           paddingTop: 25,
           paddingBottom: 100,
         }}
+        mx={25}
       >
         So, what are the features of this collection of mini projects?
       </Title>
 
-      <Group position="center" direction="column" spacing="md">
+      <Group position="center" direction="column" spacing="md" mx={25}>
         <MdBolt className="iconSize" />
         <Title
           order={2}
@@ -78,7 +81,7 @@ export function Body({}) {
           With the use Next, Lavender has been faster than ever
         </Text>
       </Group>
-      <Group position="center" direction="column" spacing="md">
+      <Group position="center" direction="column" spacing="md" mx={25}>
         <MdOutlineCollections className="iconSize" />
         <Title
           order={2}
@@ -102,7 +105,7 @@ export function Body({}) {
           for all to look at.
         </Text>
       </Group>
-      <Group position="center" direction="column" spacing="md">
+      <Group position="center" direction="column" spacing="md" mx={25}>
         <SiGithub className="iconSize" />
         <Title
           order={2}
