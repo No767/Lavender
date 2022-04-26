@@ -19,16 +19,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Set up Node.js
+      - name: Set up Node.js 18
         uses: actions/setup-node@v2
         with:
-          node-version: "17"
+          node-version: "18"
       - name: Cache/Uncache npm dependencies
         id: cache-npm
         uses: actions/cache@v2
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-v2-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Install npm dependencies
