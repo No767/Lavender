@@ -5,24 +5,10 @@ import { Body4 } from "../../lib/game-lab-components/body4";
 import { HeroHeader } from "../../lib/game-lab-components/hero-header";
 import { Navbar } from "../../lib/index-components/navbar";
 import { Footer } from "../../lib/index-components/footer";
-import { MantineProvider } from "@mantine/core";
-import Head from "next/head";
-
-const mainTheme = {
-  fontFamily: "Quicksand",
-  colorScheme: "dark",
-  headings: { fontFamily: "Quicksand" },
-};
 
 export default function GameLab() {
   return (
-    <MantineProvider theme={mainTheme} withGlobalStyles>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
+    <div>
       <Navbar />
       <HeroHeader />
       <Body1 />
@@ -32,6 +18,6 @@ export default function GameLab() {
 
       <Body4 />
       <Footer />
-    </MantineProvider>
+    </div>
   );
 }
