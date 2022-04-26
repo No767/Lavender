@@ -28,9 +28,9 @@ export function Body({}) {
         </Title>
         <Text size="lg" color="white" align="center" mx={200} pb={25}>
           Hey there! I&apos;m Noelle, a Full Stack Web Developer. I work with
-          frameworks like React and Next.js, to backend frameworks like FastAPI.
-          In fact, this whole entire website has been written using Next.js and
-          Mantine
+          frameworks like React, Next.js, and Remix, to backend frameworks like
+          FastAPI. In fact, this whole entire website has been written using
+          Next.js and Mantine
         </Text>
       </Stack>
       <Stack align="center" justify="center">
