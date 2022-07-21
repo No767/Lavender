@@ -9,7 +9,7 @@
     "format": "npx prettier --ignore-path .prettierignore --write ."
   },
   "dependencies": {
-    "@mantine/core": "^4.2.7",
+    "@mantine/core": "^4.2.12",
     "@mantine/hooks": "^4.1.0",
     "@mantine/next": "^4.2.12",
     "next": "12.2.0",
