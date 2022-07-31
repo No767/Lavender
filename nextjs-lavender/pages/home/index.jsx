@@ -3,12 +3,12 @@ import { Navbar } from "../../lib/index-components/navbar";
 import { Footer } from "../../lib/index-components/footer";
 
 export default function Home() {
-  return (
-    <div>
-      <Navbar />
+    return (
+        <div>
+            <Navbar />
 
-      <Body />
-      <Footer />
-    </div>
-  );
+            <Body />
+            <Footer />
+        </div>
+    );
 }

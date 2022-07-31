@@ -3,13 +3,13 @@ import { Navbar } from "../../lib/index-components/navbar";
 import { Footer } from "../../lib/index-components/footer";
 
 export default function AppLab() {
-  return (
-    <div>
-      <Navbar />
+    return (
+        <div>
+            <Navbar />
 
-      <Body />
+            <Body />
 
-      <Footer />
-    </div>
-  );
+            <Footer />
+        </div>
+    );
 }

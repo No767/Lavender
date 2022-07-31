@@ -7,17 +7,17 @@ import { Navbar } from "../../lib/index-components/navbar";
 import { Footer } from "../../lib/index-components/footer";
 
 export default function GameLab() {
-  return (
-    <div>
-      <Navbar />
-      <HeroHeader />
-      <Body1 />
-      <Body2 />
+    return (
+        <div>
+            <Navbar />
+            <HeroHeader />
+            <Body1 />
+            <Body2 />
 
-      <Body3 />
+            <Body3 />
 
-      <Body4 />
-      <Footer />
-    </div>
-  );
+            <Body4 />
+            <Footer />
+        </div>
+    );
 }
