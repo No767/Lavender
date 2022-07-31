@@ -1,0 +1,8 @@
+node_modules
+node_modules/*
+.cache
+.cache/*
+public
+public/*
+gatsby-types.d.ts
+src/images/*

@@ -2,3 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo '[Husky] Running Format Pre-Commit Hook' && npx prettier --ignore-path nextjs-lavender/.prettierignore --write . && git add --all
+cd lavender-gatsby && npm run format
