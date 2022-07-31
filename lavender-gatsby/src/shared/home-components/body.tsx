@@ -20,7 +20,7 @@ export const HomeBody: FC = () => {
                     Hello there. I guess I should introduce myself... I&apos;m
                     Noelle, who is the creator of this site. This is the home
                     page, and this is the portfolio of my works, so you can go
-                    check
+                    check. I mean this is free and open source so...
                 </Text>
             </VStack>
         </>
