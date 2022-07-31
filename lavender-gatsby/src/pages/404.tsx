@@ -1,7 +1,6 @@
 import * as React from "react";
-import { FC } from "react";
 
-export const NotFoundPage: FC = () => {
+const NotFoundPage = () => {
     return (
         <>
             <h1>404: Not Found</h1>
@@ -9,3 +8,5 @@ export const NotFoundPage: FC = () => {
         </>
     );
 };
+
+export default NotFoundPage;
