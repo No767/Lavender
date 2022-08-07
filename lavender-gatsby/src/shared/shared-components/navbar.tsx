@@ -171,7 +171,7 @@ export const NavBarMain: FC = () => {
                                         onClick={toggleColorMode}
                                         icon={<SwitchIcon />}
                                     />
-                                    <Link href="https://github.com/No767/Kumiko">
+                                    <Link href="https://github.com/No767/Lavender">
                                         <Button
                                             variant="outline"
                                             leftIcon={<SiGithub />}
