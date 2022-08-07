@@ -1,37 +1,55 @@
 <div align=center>
 
+![Lavender](./Assets/lavender-logo-128.svg)
 # Lavender
 
-[![CodeQL](https://github.com/No767/Lavender/actions/workflows/codeql.yml/badge.svg)](https://github.com/No767/Lavender/actions/workflows/codeql.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/e887229f-ce48-491f-a0ca-90f46b000366/deploy-status)](https://app.netlify.com/sites/lavender-petal/deploys) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e5f3014db11c4bdfa94614a3063ea341)](https://www.codacy.com/gh/No767/Lavender/dashboard?utm_source=github.com&utm_medium=referral&utm_content=No767/Lavender&utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/No767/Lavender?label=License&logo=github)
+![Gatsby Version](https://img.shields.io/github/package-json/dependency-version/No767/Lavender/gatsby?filename=lavender-gatsby%2Fpackage.json&label=Gatsby&logo=gatsby) [![CodeQL](https://github.com/No767/Lavender/actions/workflows/codeql.yml/badge.svg)](https://github.com/No767/Lavender/actions/workflows/codeql.yml) ![GitHub deployments](https://img.shields.io/github/deployments/No767/Lavender/production?label=Vercel&logo=vercel&logoColor=white) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e5f3014db11c4bdfa94614a3063ea341)](https://www.codacy.com/gh/No767/Lavender/dashboard?utm_source=github.com&utm_medium=referral&utm_content=No767/Lavender&utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/No767/Lavender?label=License&logo=github)
 
 The Digital Portfolio for CS
 
 <div align=left>
 
-# Notes
+# Info 
+In one of my classes, we were tasked with building a website, and it would be our portfolio. It was made with basic HTML and CSS. But this version takes it to the next level, and it is built with Gatsby, TypeScript, and Chakra UI. This is the source code for the website.
 
-**Note that Lavender is completely rewritten using Next.js. Please refer to the [Next.js documentation](https://nextjs.org/docs) for more information.**
+# Development
 
-# Building
+Before you start building, you'll need these dependencies:
 
-Lavender now will be using Next.js as the main React framework.
+- [Node.js](https://nodejs.org/en/) + [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
 
-## Next.js
-
-Installing Dependencies:
+1. Clone the repo
 
 ```sh
-cd nextjs-lavender && npm install
+git clone https://github.com/[user]/Lavender
 ```
 
-Running Dev Server:
+2. Change into the directory and install dependencies
+
+```sh
+cd lavender-gatsby && npm i --location=global gatsby-cli && npm install
+```
+
+3. Run the dev server
 
 ```sh
 npm run dev
 ```
 
-# Libraries Used
+4. If you need to build and serve the static files, run these command
 
-- [React](https://github.com/facebook/react/) - [Meta / Facebook](https://github.com/facebook/react/) - [MIT](https://github.com/facebook/react/blob/main/LICENSE)
-- [Next.js](https://nextjs.org/) - [Vercel](https://github.com/vercel) - [MIT](https://github.com/vercel/next.js/blob/canary/license.md)
-- [Mantine](https://mantine.dev/) - [Mantinedev](https://github.com/mantinedev) - [MIT](https://github.com/mantinedev/mantine/blob/master/LICENSE)
+```sh
+npm run build
+npm run serve
+```
+
+# Deployment
+
+Deployment is done with [Vercel](https://vercel.com/)
+
+![Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)
+
+# License
+
+[Apache-2.0](./LICENSE.txt)

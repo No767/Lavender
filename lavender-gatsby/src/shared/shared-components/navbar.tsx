@@ -1,6 +1,7 @@
 import { FC } from "react";
 import React from "react";
 import { Link as GastbyLink } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import {
     Drawer,
     DrawerBody,
@@ -40,6 +41,12 @@ export const NavBarMain: FC = () => {
     return (
         <>
             <Flex alignItems="center" pt={3} mx={5}>
+                <Link href="/" style={{ textDecoration: "none" }}>
+                    <StaticImage
+                        src="../../images/logos/lavender-logo-64.svg"
+                        alt="Lavender's Logo"
+                    />
+                </Link>
                 <Spacer />
                 <Hide below="md">
                     <HStack spacing={4} pt={3} mx={5} justify="flex-end">
@@ -270,7 +277,6 @@ export const NavBarMain: FC = () => {
                     </Drawer>
                 </Show>
             </Flex>
-            <Divider pt={5} orientation="horizontal" colorScheme="white" />
         </>
     );
 };

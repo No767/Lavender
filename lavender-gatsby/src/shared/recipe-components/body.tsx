@@ -10,11 +10,27 @@ import {
     ListItem,
     OrderedList,
     UnorderedList,
+    Box,
 } from "@chakra-ui/react";
 
 export const RecipeBody: FC = () => {
     return (
         <>
+            <Box pt={25}>
+                <Center>
+                    <Heading as="h1" size="2xl" textAlign="center">
+                        Recipe - Homemade Wonton
+                    </Heading>
+                </Center>
+            </Box>
+            <Center>
+                <Divider
+                    pt={7}
+                    orientation="horizontal"
+                    colorScheme="white"
+                    style={{ width: "50%" }}
+                />
+            </Center>
             <VStack
                 align="center"
                 direction="column"
@@ -23,7 +39,6 @@ export const RecipeBody: FC = () => {
                 spacing={5}
                 mx={50}
             >
-                <Heading size="lg">Recipe - Homemade Wonton</Heading>
                 <Text size="xl" align="center">
                     Wontons have been something that I&apos;ve always eaten
                     before. This is a traditional Chinese dish, where it is just
@@ -35,13 +50,6 @@ export const RecipeBody: FC = () => {
                     your tummy up.
                 </Text>
             </VStack>
-            <Center>
-                <Divider
-                    mt={50}
-                    mx={250}
-                    style={{ backgroundColor: "#FFFFFF" }}
-                />
-            </Center>
 
             <VStack
                 align="center"
@@ -100,25 +108,6 @@ export const RecipeBody: FC = () => {
                     </OrderedList>
                 </Center>
             </VStack>
-
-            <Center>
-                <Text size="md" fontSize="md" align="center" pt={50}>
-                    <Link
-                        href="https://www.flickr.com/photos/10559879@N00/5050352184"
-                        isExternal
-                    >
-                        &quot;Wonton Noodle Soup - close - Wonton House Swanston
-                        AUD9.20&quot;
-                    </Link>{" "}
-                    by avlxyz is licensed under{" "}
-                    <Link
-                        href="https://www.flickr.com/photos/10559879@N00/5050352184"
-                        isExternal
-                    >
-                        CC BY-SA 2.0
-                    </Link>
-                </Text>
-            </Center>
         </>
     );
 };

@@ -2,9 +2,9 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [master, dev]
+    branches: [dev-2.x, master-2.x]
   pull_request:
-    branches: [master, dev]
+    branches: [dev-2.x, master-2.x]
   schedule:
     - cron: "29 16 * * 1"
 
@@ -28,13 +28,13 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-v2-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-v3-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Install npm dependencies
         if: steps.cache-npm.outputs.cache-hit != 'true'
         run: |
-          cd nextjs-lavender
+          cd lavender-gatsby
           npm install
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1

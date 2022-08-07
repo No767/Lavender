@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/nextjs-lavender"
+    directory: "/lavender-gatsby"
     schedule:
       interval: "monthly"
     commit-message:

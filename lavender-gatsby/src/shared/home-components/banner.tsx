@@ -1,18 +1,26 @@
 import { FC } from "react";
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Box } from "@chakra-ui/react";
+import { Box, Center, Heading, Divider } from "@chakra-ui/react";
 
 export const HomeBanner: FC = () => {
     return (
         <>
-            <Box>
-                <StaticImage
-                    src="../../images/banner-assets/home-banner.png"
-                    alt="Banner"
-                    height={350}
-                />
+            <Box pt={25}>
+                <Center>
+                    <Heading as="h1" size="2xl" textAlign="center">
+                        Home
+                    </Heading>
+                </Center>
             </Box>
+            <Center>
+                <Divider
+                    pt={7}
+                    orientation="horizontal"
+                    colorScheme="white"
+                    style={{ width: "50%" }}
+                />
+            </Center>
         </>
     );
 };
