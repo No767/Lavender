@@ -10,7 +10,7 @@ export const GameLabSection1: FC = () => {
                 align="center"
                 direction="column"
                 justify="center"
-                pt={25}
+                pt={50}
                 spacing={5}
                 mx={50}
             >

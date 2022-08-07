@@ -14,24 +14,24 @@ export const Footer: FC = () => {
                         isExternal
                         style={{ textDecoration: "none" }}
                     >
-                        <SiGatsby size={24} color="#FFFFFF" />
+                        <SiGatsby size={24} />
                     </Link>
                     <Link
                         href="https://chakra-ui.com/"
                         isExternal
                         style={{ textDecoration: "none" }}
                     >
-                        <SiChakraui size={24} color="#FFFFFF" />
+                        <SiChakraui size={24} />
                     </Link>
                     <Link
                         href="https://vercel.com/"
                         isExternal
                         style={{ textDecoration: "none" }}
                     >
-                        <SiVercel size={24} color="#FFFFFF" />
+                        <SiVercel size={24} />
                     </Link>
                 </HStack>
-                <Text pt={5} pb={50} align="center">
+                <Text pt={5} pb={5} align="center">
                     © 2022 - Licensed under Apache-2.0
                 </Text>
             </VStack>

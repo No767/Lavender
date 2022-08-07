@@ -270,7 +270,6 @@ export const NavBarMain: FC = () => {
                     </Drawer>
                 </Show>
             </Flex>
-            <Divider pt={5} orientation="horizontal" colorScheme="white" />
         </>
     );
 };
