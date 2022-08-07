@@ -37,7 +37,7 @@ cd lavender-gatsby && npm i --location=global gatsby-cli && npm install
 npm run dev
 ```
 
-4. If you need to build and serve the static files, run this command
+4. If you need to build and serve the static files, run these command
 
 ```sh
 npm run build
