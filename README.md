@@ -12,7 +12,7 @@ The Digital Portfolio for CS
 # Info 
 In one of my classes, we were tasked with building a website, and it would be our portfolio. It was made with basic HTML and CSS. But this version takes it to the next level, and it is built with Gatsby, TypeScript, and Chakra UI. This is the source code for the website.
 
-# Building
+# Development
 
 Before you start building, you'll need these dependencies:
 
@@ -35,6 +35,13 @@ cd lavender-gatsby && npm i --location=global gatsby-cli && npm install
 
 ```sh
 npm run dev
+```
+
+4. If you need to build and serve the static files, run this command
+
+```sh
+npm run build
+npm run serve
 ```
 
 # Deployment
